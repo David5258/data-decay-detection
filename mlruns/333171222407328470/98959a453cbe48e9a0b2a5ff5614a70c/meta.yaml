@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/333171222407328470/98959a453cbe48e9a0b2a5ff5614a70c/artifacts
+end_time: 1774913349774
+entry_point_name: ''
+experiment_id: '333171222407328470'
+lifecycle_stage: active
+run_id: 98959a453cbe48e9a0b2a5ff5614a70c
+run_name: ab_test_all_methods
+run_uuid: 98959a453cbe48e9a0b2a5ff5614a70c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774913349589
+status: 3
+tags: []
+user_id: davidji
