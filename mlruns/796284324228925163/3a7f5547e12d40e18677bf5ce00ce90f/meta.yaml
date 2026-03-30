@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/796284324228925163/3a7f5547e12d40e18677bf5ce00ce90f/artifacts
+end_time: 1774911161024
+entry_point_name: ''
+experiment_id: '796284324228925163'
+lifecycle_stage: active
+run_id: 3a7f5547e12d40e18677bf5ce00ce90f
+run_name: xgboost_pretrain_v1
+run_uuid: 3a7f5547e12d40e18677bf5ce00ce90f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774911160356
+status: 4
+tags: []
+user_id: davidji

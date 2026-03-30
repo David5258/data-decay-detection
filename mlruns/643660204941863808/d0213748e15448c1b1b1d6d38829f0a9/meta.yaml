@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/643660204941863808/d0213748e15448c1b1b1d6d38829f0a9/artifacts
+end_time: 1774911290655
+entry_point_name: ''
+experiment_id: '643660204941863808'
+lifecycle_stage: active
+run_id: d0213748e15448c1b1b1d6d38829f0a9
+run_name: drift_eval_drift_covid
+run_uuid: d0213748e15448c1b1b1d6d38829f0a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774911290636
+status: 3
+tags: []
+user_id: davidji
