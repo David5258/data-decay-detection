@@ -1,0 +1,647 @@
+{
+  "recovery": {
+    "ks": {
+      "Daily_Return": {
+        "statistic": 0.044435454632087035,
+        "p_value": 1.0532648880035945e-146,
+        "drift": true
+      },
+      "Volatility_30d": {
+        "statistic": 0.11590668319324104,
+        "p_value": 0.0,
+        "drift": true
+      },
+      "Return_Zscore": {
+        "statistic": 0.01698644915461539,
+        "p_value": 8.511528255999958e-22,
+        "drift": true
+      },
+      "Volatility_Ratio": {
+        "statistic": 0.053186605806252674,
+        "p_value": 4.9637087533688386e-210,
+        "drift": true
+      },
+      "Volume_Zscore": {
+        "statistic": 0.02888060498420586,
+        "p_value": 3.3232259184999013e-62,
+        "drift": true
+      },
+      "Momentum_5d": {
+        "statistic": 0.043976465241471085,
+        "p_value": 1.0715602586671114e-143,
+        "drift": true
+      },
+      "Momentum_20d": {
+        "statistic": 0.04373690897358895,
+        "p_value": 3.865989477623736e-142,
+        "drift": true
+      },
+      "Drawdown": {
+        "statistic": 0.08212925038748681,
+        "p_value": 0.0,
+        "drift": true
+      },
+      "Volume_Ratio": {
+        "statistic": 0.021732484198912855,
+        "p_value": 2.088459710618539e-35,
+        "drift": true
+      },
+      "Sector_Avg_Return": {
+        "statistic": 0.0440981617655318,
+        "p_value": 1.7205225514915335e-144,
+        "drift": true
+      },
+      "Sector_Avg_Volatility": {
+        "statistic": 0.1655477990447775,
+        "p_value": 0.0,
+        "drift": true
+      },
+      "Return_vs_Sector": {
+        "statistic": 0.05121947368201199,
+        "p_value": 8.358431936105983e-195,
+        "drift": true
+      },
+      "Golden_Cross": {
+        "statistic": 0.06813749081746528,
+        "p_value": 0.0,
+        "drift": true
+      }
+    },
+    "psi": {
+      "Daily_Return": {
+        "psi": 0.004087358419802143,
+        "drift": false
+      },
+      "Volatility_30d": {
+        "psi": 0.07842219074139634,
+        "drift": false
+      },
+      "Return_Zscore": {
+        "psi": 0.0022007454506937337,
+        "drift": false
+      },
+      "Volatility_Ratio": {
+        "psi": 0.008644402565940158,
+        "drift": false
+      },
+      "Volume_Zscore": {
+        "psi": 0.0038843009811404235,
+        "drift": false
+      },
+      "Momentum_5d": {
+        "psi": 0.010999312887436509,
+        "drift": false
+      },
+      "Momentum_20d": {
+        "psi": 0.020686068539371185,
+        "drift": false
+      },
+      "Drawdown": {
+        "psi": 0.04255815302202103,
+        "drift": false
+      },
+      "Volume_Ratio": {
+        "psi": 0.0007824296488067617,
+        "drift": false
+      },
+      "Sector_Avg_Return": {
+        "psi": 0.009618592091077273,
+        "drift": false
+      },
+      "Sector_Avg_Volatility": {
+        "psi": 0.20613364218353136,
+        "drift": true
+      },
+      "Return_vs_Sector": {
+        "psi": 0.01587425146611571,
+        "drift": false
+      },
+      "Golden_Cross": {
+        "psi": 0.021875224848405317,
+        "drift": false
+      }
+    },
+    "drift_detected_ks": true,
+    "drift_detected_psi": false,
+    "mean_ks_statistic": 0.0599979870678191,
+    "mean_psi": 0.032751282526595225,
+    "pct_features_drift_ks": 1.0,
+    "pct_features_drift_psi": 0.07692307692307693
+  },
+  "post_covid": {
+    "ks": {
+      "Daily_Return": {
+        "statistic": 0.03602498350234795,
+        "p_value": 2.178380973622438e-35,
+        "drift": true
+      },
+      "Volatility_30d": {
+        "statistic": 0.12187444493254124,
+        "p_value": 0.0,
+        "drift": true
+      },
+      "Return_Zscore": {
+        "statistic": 0.03172115519024604,
+        "p_value": 1.5619603589353e-27,
+        "drift": true
+      },
+      "Volatility_Ratio": {
+        "statistic": 0.12253697376059386,
+        "p_value": 0.0,
+        "drift": true
+      },
+      "Volume_Zscore": {
+        "statistic": 0.06717452213393865,
+        "p_value": 4.630764937793622e-122,
+        "drift": true
+      },
+      "Momentum_5d": {
+        "statistic": 0.055579813043009185,
+        "p_value": 1.1359833695448077e-83,
+        "drift": true
+      },
+      "Momentum_20d": {
+        "statistic": 0.08845123034741631,
+        "p_value": 1.827624637451843e-211,
+        "drift": true
+      },
+      "Drawdown": {
+        "statistic": 0.033193649407503856,
+        "p_value": 4.1536478718845546e-30,
+        "drift": true
+      },
+      "Volume_Ratio": {
+        "statistic": 0.03828931153694015,
+        "p_value": 6.3691687320102814e-40,
+        "drift": true
+      },
+      "Sector_Avg_Return": {
+        "statistic": 0.05851929083150054,
+        "p_value": 1.0261598650565222e-92,
+        "drift": true
+      },
+      "Sector_Avg_Volatility": {
+        "statistic": 0.11732768840909696,
+        "p_value": 0.0,
+        "drift": true
+      },
+      "Return_vs_Sector": {
+        "statistic": 0.011589094530943589,
+        "p_value": 0.00048021735223111636,
+        "drift": true
+      },
+      "Golden_Cross": {
+        "statistic": 0.0819986621584749,
+        "p_value": 9.386406380597689e-182,
+        "drift": true
+      }
+    },
+    "psi": {
+      "Daily_Return": {
+        "psi": 0.003091749112574256,
+        "drift": false
+      },
+      "Volatility_30d": {
+        "psi": 0.04534157777754776,
+        "drift": false
+      },
+      "Return_Zscore": {
+        "psi": 0.004672233953779709,
+        "drift": false
+      },
+      "Volatility_Ratio": {
+        "psi": 0.19521216507687406,
+        "drift": false
+      },
+      "Volume_Zscore": {
+        "psi": 0.016724988968035835,
+        "drift": false
+      },
+      "Momentum_5d": {
+        "psi": 0.013406764725499612,
+        "drift": false
+      },
+      "Momentum_20d": {
+        "psi": 0.05032261697430759,
+        "drift": false
+      },
+      "Drawdown": {
+        "psi": 0.01704141187890643,
+        "drift": false
+      },
+      "Volume_Ratio": {
+        "psi": 0.004110478043744752,
+        "drift": false
+      },
+      "Sector_Avg_Return": {
+        "psi": 0.022554658297842676,
+        "drift": false
+      },
+      "Sector_Avg_Volatility": {
+        "psi": 0.1285208700876222,
+        "drift": false
+      },
+      "Return_vs_Sector": {
+        "psi": 0.005561258305212109,
+        "drift": false
+      },
+      "Golden_Cross": {
+        "psi": 0.03214249405334165,
+        "drift": false
+      }
+    },
+    "drift_detected_ks": true,
+    "drift_detected_psi": false,
+    "mean_ks_statistic": 0.06648313998342717,
+    "mean_psi": 0.04143871286579144,
+    "pct_features_drift_ks": 1.0,
+    "pct_features_drift_psi": 0.0
+  },
+  "drift_2008": {
+    "ks": {
+      "Daily_Return": {
+        "statistic": 0.12585023537016543,
+        "p_value": 0.0,
+        "drift": true
+      },
+      "Volatility_30d": {
+        "statistic": 0.335050727917652,
+        "p_value": 0.0,
+        "drift": true
+      },
+      "Return_Zscore": {
+        "statistic": 0.028485065552289898,
+        "p_value": 1.2140325339568329e-17,
+        "drift": true
+      },
+      "Volatility_Ratio": {
+        "statistic": 0.2284644396748774,
+        "p_value": 0.0,
+        "drift": true
+      },
+      "Volume_Zscore": {
+        "statistic": 0.05454549274644982,
+        "p_value": 1.4291720397648287e-63,
+        "drift": true
+      },
+      "Momentum_5d": {
+        "statistic": 0.13807402808207925,
+        "p_value": 0.0,
+        "drift": true
+      },
+      "Momentum_20d": {
+        "statistic": 0.18462087719123607,
+        "p_value": 0.0,
+        "drift": true
+      },
+      "Drawdown": {
+        "statistic": 0.25931938339406796,
+        "p_value": 0.0,
+        "drift": true
+      },
+      "Volume_Ratio": {
+        "statistic": 0.04843854800126435,
+        "p_value": 3.2259400453299867e-50,
+        "drift": true
+      },
+      "Sector_Avg_Return": {
+        "statistic": 0.1557084899400401,
+        "p_value": 0.0,
+        "drift": true
+      },
+      "Sector_Avg_Volatility": {
+        "statistic": 0.42112842657325056,
+        "p_value": 0.0,
+        "drift": true
+      },
+      "Return_vs_Sector": {
+        "statistic": 0.0638622708224311,
+        "p_value": 5.285230401569223e-87,
+        "drift": true
+      },
+      "Golden_Cross": {
+        "statistic": 0.32259458520758827,
+        "p_value": 0.0,
+        "drift": true
+      }
+    },
+    "psi": {
+      "Daily_Return": {
+        "psi": 0.13411004781163563,
+        "drift": false
+      },
+      "Volatility_30d": {
+        "psi": 0.49978431979251686,
+        "drift": true
+      },
+      "Return_Zscore": {
+        "psi": 0.00817191844292307,
+        "drift": false
+      },
+      "Volatility_Ratio": {
+        "psi": 0.30095339103455093,
+        "drift": true
+      },
+      "Volume_Zscore": {
+        "psi": 0.017946606738062056,
+        "drift": false
+      },
+      "Momentum_5d": {
+        "psi": 0.0827304028703008,
+        "drift": false
+      },
+      "Momentum_20d": {
+        "psi": 0.11426913179203427,
+        "drift": false
+      },
+      "Drawdown": {
+        "psi": 0.35138137835480154,
+        "drift": true
+      },
+      "Volume_Ratio": {
+        "psi": 0.0010883893714828527,
+        "drift": false
+      },
+      "Sector_Avg_Return": {
+        "psi": 0.3347634687839994,
+        "drift": true
+      },
+      "Sector_Avg_Volatility": {
+        "psi": 1.1655960071473968,
+        "drift": true
+      },
+      "Return_vs_Sector": {
+        "psi": 0.021603225206698756,
+        "drift": false
+      },
+      "Golden_Cross": {
+        "psi": 0.4316982879179937,
+        "drift": true
+      }
+    },
+    "drift_detected_ks": true,
+    "drift_detected_psi": false,
+    "mean_ks_statistic": 0.1820109669594917,
+    "mean_psi": 0.2664689673280305,
+    "pct_features_drift_ks": 1.0,
+    "pct_features_drift_psi": 0.46153846153846156
+  },
+  "drift_covid": {
+    "ks": {
+      "Daily_Return": {
+        "statistic": 0.2439325996192135,
+        "p_value": 4.188625546598006e-197,
+        "drift": true
+      },
+      "Volatility_30d": {
+        "statistic": 0.28675523208302034,
+        "p_value": 1.1389677978049362e-273,
+        "drift": true
+      },
+      "Return_Zscore": {
+        "statistic": 0.20309224770521225,
+        "p_value": 3.415748508267447e-136,
+        "drift": true
+      },
+      "Volatility_Ratio": {
+        "statistic": 0.5171119508093702,
+        "p_value": 0.0,
+        "drift": true
+      },
+      "Volume_Zscore": {
+        "statistic": 0.39832439717339707,
+        "p_value": 0.0,
+        "drift": true
+      },
+      "Momentum_5d": {
+        "statistic": 0.27015577694878634,
+        "p_value": 2.013374887635153e-242,
+        "drift": true
+      },
+      "Momentum_20d": {
+        "statistic": 0.4291326447084649,
+        "p_value": 0.0,
+        "drift": true
+      },
+      "Drawdown": {
+        "statistic": 0.44784132589454373,
+        "p_value": 0.0,
+        "drift": true
+      },
+      "Volume_Ratio": {
+        "statistic": 0.3079680989656829,
+        "p_value": 1.52717885e-316,
+        "drift": true
+      },
+      "Sector_Avg_Return": {
+        "statistic": 0.28941042977671416,
+        "p_value": 7.444515379668206e-279,
+        "drift": true
+      },
+      "Sector_Avg_Volatility": {
+        "statistic": 0.31148040009240135,
+        "p_value": 0.0,
+        "drift": true
+      },
+      "Return_vs_Sector": {
+        "statistic": 0.0863133453530055,
+        "p_value": 8.942568459394191e-25,
+        "drift": true
+      },
+      "Golden_Cross": {
+        "statistic": 0.11162823974201669,
+        "p_value": 3.4487988199637895e-41,
+        "drift": true
+      }
+    },
+    "psi": {
+      "Daily_Return": {
+        "psi": 0.3574976912088552,
+        "drift": true
+      },
+      "Volatility_30d": {
+        "psi": 0.6695266199115185,
+        "drift": true
+      },
+      "Return_Zscore": {
+        "psi": 0.675030018223235,
+        "drift": true
+      },
+      "Volatility_Ratio": {
+        "psi": 2.871490647869287,
+        "drift": true
+      },
+      "Volume_Zscore": {
+        "psi": 0.835428206628148,
+        "drift": true
+      },
+      "Momentum_5d": {
+        "psi": 0.46490482606718975,
+        "drift": true
+      },
+      "Momentum_20d": {
+        "psi": 0.8414896776833468,
+        "drift": true
+      },
+      "Drawdown": {
+        "psi": 1.1401436662362638,
+        "drift": true
+      },
+      "Volume_Ratio": {
+        "psi": 0.09327454906100519,
+        "drift": false
+      },
+      "Sector_Avg_Return": {
+        "psi": 1.3592381148923782,
+        "drift": true
+      },
+      "Sector_Avg_Volatility": {
+        "psi": 1.1197127826265436,
+        "drift": true
+      },
+      "Return_vs_Sector": {
+        "psi": 0.1199123196817676,
+        "drift": false
+      },
+      "Golden_Cross": {
+        "psi": 0.061673130553028276,
+        "drift": false
+      }
+    },
+    "drift_detected_ks": true,
+    "drift_detected_psi": true,
+    "mean_ks_statistic": 0.3002420529901407,
+    "mean_psi": 0.8161017115878898,
+    "pct_features_drift_ks": 1.0,
+    "pct_features_drift_psi": 0.7692307692307693
+  },
+  "drift_volatile": {
+    "ks": {
+      "Daily_Return": {
+        "statistic": 0.02182850030096309,
+        "p_value": 1.5813398381873735e-14,
+        "drift": true
+      },
+      "Volatility_30d": {
+        "statistic": 0.14526838945671944,
+        "p_value": 0.0,
+        "drift": true
+      },
+      "Return_Zscore": {
+        "statistic": 0.016098509841737385,
+        "p_value": 4.265963575376768e-08,
+        "drift": true
+      },
+      "Volatility_Ratio": {
+        "statistic": 0.047039275909856015,
+        "p_value": 6.376516779743599e-66,
+        "drift": true
+      },
+      "Volume_Zscore": {
+        "statistic": 0.020622319906051345,
+        "p_value": 5.179083833596689e-13,
+        "drift": true
+      },
+      "Momentum_5d": {
+        "statistic": 0.04064026481134442,
+        "p_value": 2.6104518436858066e-49,
+        "drift": true
+      },
+      "Momentum_20d": {
+        "statistic": 0.0717311778317774,
+        "p_value": 8.090169902305019e-153,
+        "drift": true
+      },
+      "Drawdown": {
+        "statistic": 0.10073141539293956,
+        "p_value": 2.834396300107974e-301,
+        "drift": true
+      },
+      "Volume_Ratio": {
+        "statistic": 0.0438155919497349,
+        "p_value": 2.999028320994602e-57,
+        "drift": true
+      },
+      "Sector_Avg_Return": {
+        "statistic": 0.045366333729440766,
+        "p_value": 2.4104860562265757e-61,
+        "drift": true
+      },
+      "Sector_Avg_Volatility": {
+        "statistic": 0.18121939591296027,
+        "p_value": 0.0,
+        "drift": true
+      },
+      "Return_vs_Sector": {
+        "statistic": 0.017628177819127705,
+        "p_value": 1.2686747412073548e-09,
+        "drift": true
+      },
+      "Golden_Cross": {
+        "statistic": 0.14987980007896246,
+        "p_value": 0.0,
+        "drift": true
+      }
+    },
+    "psi": {
+      "Daily_Return": {
+        "psi": 0.004933631706689293,
+        "drift": false
+      },
+      "Volatility_30d": {
+        "psi": 0.17011500772459648,
+        "drift": false
+      },
+      "Return_Zscore": {
+        "psi": 0.0009462170375359396,
+        "drift": false
+      },
+      "Volatility_Ratio": {
+        "psi": 0.02246527546063553,
+        "drift": false
+      },
+      "Volume_Zscore": {
+        "psi": 0.005546164532640989,
+        "drift": false
+      },
+      "Momentum_5d": {
+        "psi": 0.008484115322045476,
+        "drift": false
+      },
+      "Momentum_20d": {
+        "psi": 0.009213971629437677,
+        "drift": false
+      },
+      "Drawdown": {
+        "psi": 0.0557535656438301,
+        "drift": false
+      },
+      "Volume_Ratio": {
+        "psi": 0.0011628129557360492,
+        "drift": false
+      },
+      "Sector_Avg_Return": {
+        "psi": 0.02378317301279169,
+        "drift": false
+      },
+      "Sector_Avg_Volatility": {
+        "psi": 0.935463316885425,
+        "drift": true
+      },
+      "Return_vs_Sector": {
+        "psi": 0.006433697224042302,
+        "drift": false
+      },
+      "Golden_Cross": {
+        "psi": 0.0932487947251846,
+        "drift": false
+      }
+    },
+    "drift_detected_ks": true,
+    "drift_detected_psi": false,
+    "mean_ks_statistic": 0.06937455022627806,
+    "mean_psi": 0.1028884418354301,
+    "pct_features_drift_ks": 1.0,
+    "pct_features_drift_psi": 0.07692307692307693
+  }
+}

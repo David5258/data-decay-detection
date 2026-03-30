@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/164752290397726064/3a8cb36925b948ce8309cc8cf8341fd7/artifacts
+end_time: 1774912656457
+entry_point_name: ''
+experiment_id: '164752290397726064'
+lifecycle_stage: active
+run_id: 3a8cb36925b948ce8309cc8cf8341fd7
+run_name: stats_drift_volatile
+run_uuid: 3a8cb36925b948ce8309cc8cf8341fd7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774912656402
+status: 3
+tags: []
+user_id: davidji
