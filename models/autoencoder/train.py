@@ -201,6 +201,6 @@ with mlflow.start_run(run_name="autoencoder_v1"):
     with open("models/autoencoder/reconstruction_results.json", "w") as f:
         json.dump(results, f, indent=2)
 
-    print(f"\n✅ Model saved to models/autoencoder/model.pth")
-    print(f"✅ Logged to MLflow — check http://127.0.0.1:5000")
-    print(f"\n✅ Step 7 complete!")
+    print(f"Model saved to models/autoencoder/model.pth")
+    print(f"Logged to MLflow — check http://127.0.0.1:5000")
+    print(f"Step 7 complete!")
