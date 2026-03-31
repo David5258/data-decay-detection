@@ -127,7 +127,7 @@ pipeline = Pipeline(stages=[assembler, scaler])
 pipeline_model = pipeline.fit(df)
 df_final = pipeline_model.transform(df)
 
-print("Pipeline complete!")
+print("Pipeline complete")
 
 # Save outputs
 print("Saving outputs...")
@@ -143,7 +143,7 @@ df_final.select(
     "Return_vs_Sector", "Golden_Cross"
 ).toPandas().to_parquet("data/spark_output/featured_dataset.parquet", index=False)
 
-print("\n✅ Spark pipeline complete!")
+print("Spark pipeline finished")
 print(f"Final dataset saved to data/spark_output/featured_dataset.parquet")
 
 spark.stop()
