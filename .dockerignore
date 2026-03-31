@@ -1,0 +1,14 @@
+touch .dockerignore
+```
+
+Open it in VS Code and paste:
+```
+venv/
+__pycache__/
+*.pyc
+.env
+mlruns/
+data/raw/
+notebooks/
+.git/
+*.parquet
