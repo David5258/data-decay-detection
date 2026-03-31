@@ -53,7 +53,7 @@ def test_psi_low_for_stable_data():
         breakpoints = np.linspace(
             min(reference.min(), current.min()),
             max(reference.max(), current.max()),
-            
+
             bins + 1
         )
         ref_counts, _ = np.histogram(reference, bins=breakpoints)
@@ -116,8 +116,11 @@ def test_feature_count():
 
 # Test 7 — Data loading works
 def test_data_shape():
+    import os
+    if not os.path.exists("data/spark_output/featured_dataset.parquet"):
+        pytest.skip("Data file not available in CI environment")
     df = pd.read_parquet("data/spark_output/featured_dataset.parquet")
     assert df.shape[0] > 400000, "Dataset should have more than 400k rows"
     assert "Drift_Label" in df.columns, "Dataset should have Drift_Label column"
     assert "Window" in df.columns, "Dataset should have Window column"
-
+    
