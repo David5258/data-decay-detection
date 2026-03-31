@@ -134,8 +134,8 @@ with mlflow.start_run(run_name="xgboost_pretrain_v1"):
     with open("models/xgboost/features.json", "w") as f:
         json.dump(FEATURES, f)
 
-    print(f"\n✅ Model saved to {model_path}")
-    print(f"✅ Logged to MLflow — check http://127.0.0.1:5000")
+    print(f"Model saved to {model_path}")
+    print(f"Logged to MLflow — check http://127.0.0.1:5000")
 
 # Now test on drift periods
 print("\n🔍 Testing model on drift periods...")
@@ -163,4 +163,4 @@ for window_name in ["drift_2008", "drift_covid", "drift_volatile"]:
 
     print(f"{window_name:20s} → AUC: {auc:.4f} | Mean drift prob: {y_drift_prob.mean():.4f}")
 
-print("\n✅ Step 6 complete!")
+print("Step 6 complete!")
