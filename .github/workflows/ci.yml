@@ -12,18 +12,19 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Install dependencies
         run: |
           pip install pytest pytest-cov
-          pip install numpy pandas scipy scikit-learn xgboost torch --index-url https://download.pytorch.org/whl/cpu
-          pip install fastapi uvicorn pydantic email-validator joblib pyarrow
+          pip install numpy pandas scipy scikit-learn xgboost joblib pyarrow
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install fastapi uvicorn pydantic email-validator
 
       - name: Run tests
         run: pytest tests/ -v --tb=short
