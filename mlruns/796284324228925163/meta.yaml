@@ -1,6 +1,0 @@
-artifact_location: mlflow-artifacts:/796284324228925163
-creation_time: 1774911160230
-experiment_id: '796284324228925163'
-last_update_time: 1774911160230
-lifecycle_stage: active
-name: xgboost_baseline

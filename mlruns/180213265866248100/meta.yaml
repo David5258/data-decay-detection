@@ -1,6 +1,0 @@
-artifact_location: mlflow-artifacts:/180213265866248100
-creation_time: 1774911860368
-experiment_id: '180213265866248100'
-last_update_time: 1774911860368
-lifecycle_stage: active
-name: pytorch_autoencoder

@@ -7,3 +7,6 @@ data/raw/
 *.csv
 *.parquet
 .ipynb_checkpoints/
+mlartifacts/
+mlruns/
+setup_notebook.py
