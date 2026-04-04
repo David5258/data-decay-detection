@@ -236,12 +236,3 @@ data-decay-detection/
 └── aws/                    # Deployment infrastructure
 ```
 
----
-
-## Content
-
-- **End-to-end ML system** — from raw data ingestion to production API
-- **Production thinking** — drift detection, experiment tracking, automated testing
-- **Scale** — Spark pipeline processing 510k rows across 92 stocks
-- **Rigorous evaluation** — A/B testing with statistical significance
-- **MLOps** — MLflow, Docker, AWS, CI/CD with GitHub Actions
