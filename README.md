@@ -26,7 +26,7 @@
 
 ## The Problem
 
-ML models trained on historical data silently fail when market conditions change. A model trained on pre-2008 bull market data has **no idea** a financial crisis is coming — it keeps predicting "everything is normal" while the market collapses.
+ML models trained on historical data silently fail when market conditions change. A model trained on pre-2008 bull market data has **no idea** a financial crisis is coming and it keeps predicting "everything is normal" while the market collapses.
 
 This project builds a system that automatically detects when market data has drifted from training distribution, triggering alerts before model performance degrades.
 
@@ -36,7 +36,7 @@ This project builds a system that automatically detects when market data has dri
 ```
 Raw Market Data (92 S&P 500 stocks, 2000-2024)
         ↓
-Apache Spark — Feature Engineering at Scale (510k rows, 28 features)
+Apache Spark: Feature Engineering at Scale (510k rows, 28 features)
         ↓
 ┌─────────────────────────────────────────────┐
 │           Drift Detection Layer              │
@@ -49,7 +49,7 @@ Apache Spark — Feature Engineering at Scale (510k rows, 28 features)
 │         A/B Test — KS Test Wins             │
 └─────────────────────────────────────────────┘
         ↓
-FastAPI REST API — Real-time drift scoring
+FastAPI REST API: Real-time drift scoring
         ↓
 Docker → AWS ECR → EC2 Deployment
         ↓
