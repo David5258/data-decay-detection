@@ -1,6 +1,6 @@
 # Market Regime Drift Detection System
 
-> Real-time detection of financial market regime changes using statistical tests, deep learning, and production ML infrastructure — built to catch what traditional models miss.
+> Real-time detection of financial market regime changes using statistical tests, deep learning, and production ML infrastructure.
 
 [![CI Pipeline](https://github.com/David5258/data-decay-detection/actions/workflows/ci.yml/badge.svg)](https://github.com/David5258/data-decay-detection/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
